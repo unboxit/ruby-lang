@@ -1,6 +1,7 @@
 require "rubygems"
 require "sinatra"
 
+set :port, 4000
 
 #Create: POST /note
 post "/notes" do
